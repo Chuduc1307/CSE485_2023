@@ -1,0 +1,5 @@
+id,name,age,class
+1,Chu Minh Duc,21,TH3
+2,Vu Quang Truong,15,TH1
+3,Nguyen Manh Thang,23,TH3
+4,Tran Bao Khanh,19,TH3
