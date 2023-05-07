@@ -38,22 +38,22 @@
             $this->age = $age;
         }
     
-        // Phương thức khác
-        public function displayInfo() {
-            echo "Student Information:<br>";
-            echo "Id: " . $this->id . "<br>";
-            echo "Name: " . $this->name . "<br>";
-            echo "Age: " . $this->age . "<br>";
-        }
+        // // Phương thức khác
+        // public function displayInfo() {
+        //     echo "Student Information:<br>";
+        //     echo "Id: " . $this->id . "<br>";
+        //     echo "Name: " . $this->name . "<br>";
+        //     echo "Age: " . $this->age . "<br>";
+        // }
     }
     
-    // Sử dụng lớp Sinh viên
-    $student = new Student("1", "Trần Bảo Khánh", 22);
-    $student->displayInfo();
+    // // Sử dụng lớp Sinh viên
+    // $student = new Student("1", "Trần Bảo Khánh", 22);
+    // $student->displayInfo();
     
-    // Cập nhật thông tin sinh viên
-    $student->setId("2");
-    $student->setName("Khánh Trần");
-    $student->setAge(23);
-    $student->displayInfo();
+    // // Cập nhật thông tin sinh viên
+    // $student->setId("2");
+    // $student->setName("Khánh Trần");
+    // $student->setAge(23);
+    // $student->displayInfo();
 ?>
