@@ -155,7 +155,7 @@ $students = $dao->getAll();
 	</table>
 	<br>
 	<h1>Nhập thông tin sinh viên mới</h1>
-	<form action="themsinhvien.php" method="post">
+	<form action="duplicatecheck.php" method="post">
 		<label for="id">ID:</label>
 		<input type="text" id="id" name="id"><br><br>
 		<label for="name">Họ và tên:</label>
