@@ -95,10 +95,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($existingStudent !== null) {
         echo 'Sinh viên đã tồn tại trong danh sách';
     } else {
-        // Thêm sinh viên mới vào danh sách và lưu vào file CSV
+        // Thêm sinh viên mới vào danh sách và lưu vào file TXT
         $student = new Student($id, $name, $age);
         $studentDAO->add($student);
-        $studentDAO->saveToCSV('danhsachsinhvien.txt');
+        $studentDAO->saveToTXT('danhsachsinhvien.txt');
     }
 }
 
